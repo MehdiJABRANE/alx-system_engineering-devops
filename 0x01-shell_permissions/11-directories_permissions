@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod u+rwx,g+rx,o+rx {} \;
+chmod -R u+x,g+x,o,x /alx-system_engineering-devops/0x01-shell_permissions
