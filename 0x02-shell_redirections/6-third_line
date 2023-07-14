@@ -1,2 +1,2 @@
 #!/bin/bash
-head -n 3 ./iactaa
+wc -l 3 ./iactaa
