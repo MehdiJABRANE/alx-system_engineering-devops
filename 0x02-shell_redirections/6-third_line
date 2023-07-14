@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -l N 3 ./iactaa
+awk 'NR == 3' ./iactaa
