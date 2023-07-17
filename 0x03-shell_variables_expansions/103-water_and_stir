@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $(($WATER + $STIR))
+w=$((5#(echo $WATER | tr water 01234))) | y=$((5#(echo $STIR | tr stir. 01234))) | printf "%o\n" $((w+y))
