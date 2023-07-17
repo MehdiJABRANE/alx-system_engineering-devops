@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER=$((bestchol#$WATER)) | STIR=$((bestchol#$WATER)) | echo $(($WATER + $STIR))
+printf "%o\n" $(($WATER + $STIR))
